@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Unity Editor",
+            "type": "unity",
+            "path": "/Applications/Unity/Hub/Editor/[你的Unity版本]/Unity.app",
+            "request": "launch"
+        },
+        {
+            "name": "Attach to Unity Editor",
+            "type": "unity",
+            "request": "attach"
+        }
+    ]
+}
