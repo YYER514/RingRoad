@@ -39,7 +39,7 @@ public class MoveAlongPathWithOffset : MonoBehaviour
         dead = false;
         dis = 0;
         
-        Hp = maxBoos ? 300 : (IsBoss ? 130f : 1f);
+        Hp = maxBoos ? 500 : (IsBoss ? 200f : 1f);
         oldHp = Hp;
         oldHpNew = Hp;
 
